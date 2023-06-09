@@ -59,14 +59,39 @@ a,
   border-radius: 6px;
 }
 
-.container-four {
+.container-three {
+  background-color: #e5e7eb;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+.container-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 75%;
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 18px;
+}
+
 .cta {
-  width: 600px;
+  box-sizing: border-box;
+  width: 75%;
   background-color: #3882f6;
   display: flex;
   justify-content: space-between;
